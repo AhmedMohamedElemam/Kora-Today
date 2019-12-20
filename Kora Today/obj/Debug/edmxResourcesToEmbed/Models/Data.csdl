@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KoraTodayModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="KoraTodayEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="ClubNews" EntityType="KoraTodayModel.ClubNews" />
+    <EntitySet Name="Clubs" EntityType="KoraTodayModel.Clubs" />
+    <EntitySet Name="Leagues" EntityType="KoraTodayModel.Leagues" />
+    <AssociationSet Name="FK_ClubNews_Clubs" Association="KoraTodayModel.FK_ClubNews_Clubs">
+      <End Role="Clubs" EntitySet="Clubs" />
+      <End Role="ClubNews" EntitySet="ClubNews" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Clubs_Leagues" Association="KoraTodayModel.FK_Clubs_Leagues">
+      <End Role="Leagues" EntitySet="Leagues" />
+      <End Role="Clubs" EntitySet="Clubs" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ClubNews">
+    <Key>
+      <PropertyRef Name="NewId" />
+    </Key>
+    <Property Name="NewId" Type="Int32" Nullable="false" />
+    <Property Name="NewTitle" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="NewContent" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="NewImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="ClubId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Clubs" Relationship="KoraTodayModel.FK_ClubNews_Clubs" FromRole="ClubNews" ToRole="Clubs" />
+  </EntityType>
+  <EntityType Name="Clubs">
+    <Key>
+      <PropertyRef Name="ClubId" />
+    </Key>
+    <Property Name="ClubId" Type="Int32" Nullable="false" />
+    <Property Name="ClubName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ClubImage" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="LeagueId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ClubNews" Relationship="KoraTodayModel.FK_ClubNews_Clubs" FromRole="Clubs" ToRole="ClubNews" />
+    <NavigationProperty Name="Leagues" Relationship="KoraTodayModel.FK_Clubs_Leagues" FromRole="Clubs" ToRole="Leagues" />
+  </EntityType>
+  <EntityType Name="Leagues">
+    <Key>
+      <PropertyRef Name="LeagueId" />
+    </Key>
+    <Property Name="LeagueId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="LeagueName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="LeagueImage" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Clubs" Relationship="KoraTodayModel.FK_Clubs_Leagues" FromRole="Leagues" ToRole="Clubs" />
+  </EntityType>
+  <Association Name="FK_ClubNews_Clubs">
+    <End Role="Clubs" Type="KoraTodayModel.Clubs" Multiplicity="1" />
+    <End Role="ClubNews" Type="KoraTodayModel.ClubNews" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clubs">
+        <PropertyRef Name="ClubId" />
+      </Principal>
+      <Dependent Role="ClubNews">
+        <PropertyRef Name="ClubId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Clubs_Leagues">
+    <End Role="Leagues" Type="KoraTodayModel.Leagues" Multiplicity="1" />
+    <End Role="Clubs" Type="KoraTodayModel.Clubs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Leagues">
+        <PropertyRef Name="LeagueId" />
+      </Principal>
+      <Dependent Role="Clubs">
+        <PropertyRef Name="LeagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

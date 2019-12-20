@@ -1,0 +1,39 @@
+﻿@model Kora_Today.Models.LocalPasswordModel
+@{
+    ViewBag.Title = "Manage Account";
+}
+
+<hgroup class="title" >
+    <h1 style="text-align:center">@ViewBag.Title</h1>
+</hgroup>
+<style>
+.Admin 
+{ 
+    text-decoration:none;
+    color:red;
+}
+</style>
+<p class="message-success">@ViewBag.StatusMessage</p>
+
+<p>You're logged in as <strong  style="color:red">@User.Identity.Name</strong></p>
+@if(User.IsInRole("Admin"))
+{
+    <p>You can go to dashboard from <strong>@Html.ActionLink("Here", "Index", "Control",null,new { @class = "Admin", title = "Admin Panel" })</strong></p>         
+}
+
+
+@if (ViewBag.HasLocalPassword)
+{
+    @Html.Partial("_ChangePasswordPartial")
+}
+else
+{ 
+    @Html.Partial("_SetPasswordPartial")
+}
+
+<section id="externalLogins">
+    @Html.Action("RemoveExternalLogins")
+
+    <h3  style="text-align:center;color:green">Add an external login</h3>
+    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>

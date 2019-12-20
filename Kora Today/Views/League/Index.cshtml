@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Kora_Today.Models.League>
+@RenderPage("/Views/Shared/_Dashboard.cshtml")
+
+@{
+    ViewBag.Title = "My Leagues";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<h2 style="text-align:center">My Leagues</h2>
+
+<p  style="text-align:center">
+    @Html.ActionLink("Create New League", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LeagueName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LeagueImage)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td style="color:green">
+            @Html.DisplayFor(modelItem => item.LeagueName)
+        </td>
+        <td>
+            <img src="~/Uploads/@item.LeagueImage" style="width:100px;height:100px" />
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.LeagueId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.LeagueId }) 
+        </td>
+    </tr>
+}
+
+</table>

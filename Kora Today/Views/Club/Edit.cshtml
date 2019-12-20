@@ -1,0 +1,114 @@
+﻿@model Kora_Today.Models.Club
+
+@{
+    ViewBag.Title = "Edit Club";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit Club</h2>
+
+@using (Html.BeginForm("Edit", "Club", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Club</legend>
+
+        @Html.HiddenFor(model => model.ClubId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ClubName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ClubName)
+            @Html.ValidationMessageFor(model => model.ClubName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ClubImage)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ClubImage)
+            @Html.ValidationMessageFor(model => model.ClubImage)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LeagueId, "League")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("LeagueId", String.Empty)
+            @Html.ValidationMessageFor(model => model.LeagueId)
+        </div>
+            <div class="editor-label">
+            @Html.LabelFor(model => model.Played)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Played)
+            @Html.ValidationMessageFor(model => model.Played)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Won)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Won)
+            @Html.ValidationMessageFor(model => model.Won)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Drawn)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Drawn)
+            @Html.ValidationMessageFor(model => model.Drawn)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Lost)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Lost)
+            @Html.ValidationMessageFor(model => model.Lost)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.GoalsFor)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.GoalsFor)
+            @Html.ValidationMessageFor(model => model.GoalsFor)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.GoalsAgainst)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.GoalsAgainst)
+            @Html.ValidationMessageFor(model => model.GoalsAgainst)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.GoalsDifference)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.GoalsDifference)
+            @Html.ValidationMessageFor(model => model.GoalsDifference)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Points)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Points)
+            @Html.ValidationMessageFor(model => model.Points)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

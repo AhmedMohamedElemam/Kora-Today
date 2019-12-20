@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KoraTodayModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="KoraTodayModelStoreContainer">
+    <EntitySet Name="Club" EntityType="KoraTodayModel.Store.Club" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="History" EntityType="KoraTodayModel.Store.History" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="League" EntityType="KoraTodayModel.Store.League" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Match" EntityType="KoraTodayModel.Store.Match" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MatchDetail" EntityType="KoraTodayModel.Store.MatchDetail" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MatchTv" EntityType="KoraTodayModel.Store.MatchTv" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Player" EntityType="KoraTodayModel.Store.Player" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Slider" EntityType="KoraTodayModel.Store.Slider" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="KoraTodayModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserProfile" EntityType="KoraTodayModel.Store.UserProfile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="webpages_Membership" EntityType="KoraTodayModel.Store.webpages_Membership" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="webpages_OAuthMembership" EntityType="KoraTodayModel.Store.webpages_OAuthMembership" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="webpages_Roles" EntityType="KoraTodayModel.Store.webpages_Roles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="webpages_UsersInRoles" EntityType="KoraTodayModel.Store.webpages_UsersInRoles" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Club_League" Association="KoraTodayModel.Store.FK_Club_League">
+      <End Role="League" EntitySet="League" />
+      <End Role="Club" EntitySet="Club" />
+    </AssociationSet>
+    <AssociationSet Name="FK_History_Club" Association="KoraTodayModel.Store.FK_History_Club">
+      <End Role="Club" EntitySet="Club" />
+      <End Role="History" EntitySet="History" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatchDetail_Match" Association="KoraTodayModel.Store.FK_MatchDetail_Match">
+      <End Role="Match" EntitySet="Match" />
+      <End Role="MatchDetail" EntitySet="MatchDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MatchTv_Match" Association="KoraTodayModel.Store.FK_MatchTv_Match">
+      <End Role="Match" EntitySet="Match" />
+      <End Role="MatchTv" EntitySet="MatchTv" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Player_League" Association="KoraTodayModel.Store.FK_Player_League">
+      <End Role="League" EntitySet="League" />
+      <End Role="Player" EntitySet="Player" />
+    </AssociationSet>
+    <AssociationSet Name="fk_RoleId" Association="KoraTodayModel.Store.fk_RoleId">
+      <End Role="webpages_Roles" EntitySet="webpages_Roles" />
+      <End Role="webpages_UsersInRoles" EntitySet="webpages_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="fk_UserId" Association="KoraTodayModel.Store.fk_UserId">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="webpages_UsersInRoles" EntitySet="webpages_UsersInRoles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Club">
+    <Key>
+      <PropertyRef Name="ClubId" />
+    </Key>
+    <Property Name="ClubId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClubName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ClubImage" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LeagueId" Type="int" Nullable="false" />
+    <Property Name="Played" Type="nvarchar(max)" />
+    <Property Name="Won" Type="nvarchar(max)" />
+    <Property Name="Drawn" Type="nvarchar(max)" />
+    <Property Name="Lost" Type="nvarchar(max)" />
+    <Property Name="GoalsFor" Type="nvarchar(max)" />
+    <Property Name="GoalsAgainst" Type="nvarchar(max)" />
+    <Property Name="GoalsDifference" Type="nvarchar(max)" />
+    <Property Name="Points" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="History">
+    <Key>
+      <PropertyRef Name="HistoryId" />
+    </Key>
+    <Property Name="HistoryId" Type="int" Nullable="false" />
+    <Property Name="HistoryTitle" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HistoryContent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HistoryTime" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HistoryImage" Type="nvarchar(max)" />
+    <Property Name="ClubId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="League">
+    <Key>
+      <PropertyRef Name="LeagueId" />
+    </Key>
+    <Property Name="LeagueId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LeagueName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LeagueImage" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Match">
+    <Key>
+      <PropertyRef Name="MatchId" />
+    </Key>
+    <Property Name="MatchId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MatchHome" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchAway" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchHomeImage" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchAwayImage" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchResult" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchDate" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchTime" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchStatus" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchLeague" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MatchDetail">
+    <Key>
+      <PropertyRef Name="MatchDetailsId" />
+    </Key>
+    <Property Name="MatchDetailsId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="MatchDetailsMinute" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchDetailsIcon" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchDetailsDesc" Type="varchar(max)" Nullable="false" />
+    <Property Name="MatchId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MatchTv">
+    <Key>
+      <PropertyRef Name="MatchTvId" />
+    </Key>
+    <Property Name="MatchTvId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="MatchVideoId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MatchVideoName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MatchId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Player">
+    <Key>
+      <PropertyRef Name="PlayerId" />
+    </Key>
+    <Property Name="PlayerId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PlayerName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Goals" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LeagueId" Type="int" Nullable="false" />
+    <Property Name="PlayerClub" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Slider">
+    <Key>
+      <PropertyRef Name="SliderId" />
+    </Key>
+    <Property Name="SliderId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SliderImage" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SliderLink" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="56" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="webpages_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="ConfirmationToken" Type="nvarchar" MaxLength="128" />
+    <Property Name="IsConfirmed" Type="bit" />
+    <Property Name="LastPasswordFailureDate" Type="datetime" />
+    <Property Name="PasswordFailuresSinceLastSuccess" Type="int" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="PasswordChangedDate" Type="datetime" />
+    <Property Name="PasswordSalt" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="PasswordVerificationToken" Type="nvarchar" MaxLength="128" />
+    <Property Name="PasswordVerificationTokenExpirationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="webpages_OAuthMembership">
+    <Key>
+      <PropertyRef Name="Provider" />
+      <PropertyRef Name="ProviderUserId" />
+    </Key>
+    <Property Name="Provider" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ProviderUserId" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="webpages_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="webpages_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Club_League">
+    <End Role="League" Type="KoraTodayModel.Store.League" Multiplicity="1" />
+    <End Role="Club" Type="KoraTodayModel.Store.Club" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="League">
+        <PropertyRef Name="LeagueId" />
+      </Principal>
+      <Dependent Role="Club">
+        <PropertyRef Name="LeagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_History_Club">
+    <End Role="Club" Type="KoraTodayModel.Store.Club" Multiplicity="1" />
+    <End Role="History" Type="KoraTodayModel.Store.History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Club">
+        <PropertyRef Name="ClubId" />
+      </Principal>
+      <Dependent Role="History">
+        <PropertyRef Name="ClubId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatchDetail_Match">
+    <End Role="Match" Type="KoraTodayModel.Store.Match" Multiplicity="1" />
+    <End Role="MatchDetail" Type="KoraTodayModel.Store.MatchDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Match">
+        <PropertyRef Name="MatchId" />
+      </Principal>
+      <Dependent Role="MatchDetail">
+        <PropertyRef Name="MatchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MatchTv_Match">
+    <End Role="Match" Type="KoraTodayModel.Store.Match" Multiplicity="1" />
+    <End Role="MatchTv" Type="KoraTodayModel.Store.MatchTv" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Match">
+        <PropertyRef Name="MatchId" />
+      </Principal>
+      <Dependent Role="MatchTv">
+        <PropertyRef Name="MatchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Player_League">
+    <End Role="League" Type="KoraTodayModel.Store.League" Multiplicity="1" />
+    <End Role="Player" Type="KoraTodayModel.Store.Player" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="League">
+        <PropertyRef Name="LeagueId" />
+      </Principal>
+      <Dependent Role="Player">
+        <PropertyRef Name="LeagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_RoleId">
+    <End Role="webpages_Roles" Type="KoraTodayModel.Store.webpages_Roles" Multiplicity="1" />
+    <End Role="webpages_UsersInRoles" Type="KoraTodayModel.Store.webpages_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="webpages_Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="webpages_UsersInRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_UserId">
+    <End Role="UserProfile" Type="KoraTodayModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="webpages_UsersInRoles" Type="KoraTodayModel.Store.webpages_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="webpages_UsersInRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

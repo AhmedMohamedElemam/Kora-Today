@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KoraTodayModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="KoraTodayEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Clubs" EntityType="KoraTodayModel.Club" />
+    <EntitySet Name="Histories" EntityType="KoraTodayModel.History" />
+    <EntitySet Name="Leagues" EntityType="KoraTodayModel.League" />
+    <AssociationSet Name="FK_Club_League1" Association="KoraTodayModel.FK_Club_League1">
+      <End Role="League" EntitySet="Leagues" />
+      <End Role="Club" EntitySet="Clubs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_History_Club" Association="KoraTodayModel.FK_History_Club">
+      <End Role="Club" EntitySet="Clubs" />
+      <End Role="History" EntitySet="Histories" />
+    </AssociationSet>
+    <EntitySet Name="Matches" EntityType="KoraTodayModel.Match" />
+    <EntitySet Name="sysdiagrams" EntityType="KoraTodayModel.sysdiagram" />
+    <EntitySet Name="Users" EntityType="KoraTodayModel.User" />
+    <EntitySet Name="webpages_Membership" EntityType="KoraTodayModel.webpages_Membership" />
+    <EntitySet Name="webpages_OAuthMembership" EntityType="KoraTodayModel.webpages_OAuthMembership" />
+    <EntitySet Name="webpages_Roles" EntityType="KoraTodayModel.webpages_Roles" />
+    <AssociationSet Name="webpages_UsersInRoles" Association="KoraTodayModel.webpages_UsersInRoles">
+      <End Role="webpages_Roles" EntitySet="webpages_Roles" />
+      <End Role="UserProfile" EntitySet="Users" />
+    </AssociationSet>
+    <EntitySet Name="Sliders" EntityType="KoraTodayModel.Slider" />
+    <EntitySet Name="MatchTvs" EntityType="KoraTodayModel.MatchTv" />
+    <AssociationSet Name="FK_MatchTv_Match" Association="KoraTodayModel.FK_MatchTv_Match">
+      <End Role="Match" EntitySet="Matches" />
+      <End Role="MatchTv" EntitySet="MatchTvs" />
+    </AssociationSet>
+    <EntitySet Name="MatchDetails" EntityType="KoraTodayModel.MatchDetail" />
+    <AssociationSet Name="FK_MatchDetail_Match" Association="KoraTodayModel.FK_MatchDetail_Match">
+      <End Role="Match" EntitySet="Matches" />
+      <End Role="MatchDetail" EntitySet="MatchDetails" />
+    </AssociationSet>
+    <EntitySet Name="Players" EntityType="KoraTodayModel.Player" />
+    <AssociationSet Name="FK_Player_League" Association="KoraTodayModel.FK_Player_League">
+      <End Role="League" EntitySet="Leagues" />
+      <End Role="Player" EntitySet="Players" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Club">
+    <Key>
+      <PropertyRef Name="ClubId" />
+    </Key>
+    <Property Name="ClubId" Type="Int32" Nullable="false" />
+    <Property Name="ClubName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ClubImage" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="LeagueId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="League" Relationship="KoraTodayModel.FK_Club_League1" FromRole="Club" ToRole="League" />
+    <NavigationProperty Name="Histories" Relationship="KoraTodayModel.FK_History_Club" FromRole="Club" ToRole="History" />
+    <Property Type="String" Name="Played" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Won" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Drawn" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Lost" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="GoalsFor" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="GoalsAgainst" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="GoalsDifference" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Points" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="History">
+    <Key>
+      <PropertyRef Name="HistoryId" />
+    </Key>
+    <Property Name="HistoryId" Type="Int32" Nullable="false" />
+    <Property Name="HistoryTitle" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="HistoryContent" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="HistoryTime" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="HistoryImage" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ClubId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Club" Relationship="KoraTodayModel.FK_History_Club" FromRole="History" ToRole="Club" />
+  </EntityType>
+  <EntityType Name="League">
+    <Key>
+      <PropertyRef Name="LeagueId" />
+    </Key>
+    <Property Name="LeagueId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="LeagueName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="LeagueImage" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Clubs" Relationship="KoraTodayModel.FK_Club_League1" FromRole="League" ToRole="Club" />
+    <NavigationProperty Name="Players" Relationship="KoraTodayModel.FK_Player_League" FromRole="League" ToRole="Player" />
+  </EntityType>
+  <Association Name="FK_Club_League1">
+    <End Role="League" Type="KoraTodayModel.League" Multiplicity="1" />
+    <End Role="Club" Type="KoraTodayModel.Club" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="League">
+        <PropertyRef Name="LeagueId" />
+      </Principal>
+      <Dependent Role="Club">
+        <PropertyRef Name="LeagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_History_Club">
+    <End Role="Club" Type="KoraTodayModel.Club" Multiplicity="1" />
+    <End Role="History" Type="KoraTodayModel.History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Club">
+        <PropertyRef Name="ClubId" />
+      </Principal>
+      <Dependent Role="History">
+        <PropertyRef Name="ClubId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Match">
+    <Key>
+      <PropertyRef Name="MatchId" />
+    </Key>
+    <Property Type="Int32" Name="MatchId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="MatchHome" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchAway" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchHomeImage" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchAwayImage" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchResult" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchDate" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchTime" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchStatus" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchLeague" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MatchTvs" Relationship="KoraTodayModel.FK_MatchTv_Match" FromRole="Match" ToRole="MatchTv" />
+    <NavigationProperty Name="MatchDetails" Relationship="KoraTodayModel.FK_MatchDetail_Match" FromRole="Match" ToRole="MatchDetail" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="principal_id" Nullable="false" />
+    <Property Type="Int32" Name="diagram_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="version" />
+    <Property Type="Binary" Name="definition" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Int32" Name="UserId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="56" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="webpages_Roles" Relationship="KoraTodayModel.webpages_UsersInRoles" FromRole="UserProfile" ToRole="webpages_Roles" />
+  </EntityType>
+  <EntityType Name="webpages_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Int32" Name="UserId" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" Precision="3" />
+    <Property Type="String" Name="ConfirmationToken" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsConfirmed" />
+    <Property Type="DateTime" Name="LastPasswordFailureDate" Precision="3" />
+    <Property Type="Int32" Name="PasswordFailuresSinceLastSuccess" Nullable="false" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="PasswordChangedDate" Precision="3" />
+    <Property Type="String" Name="PasswordSalt" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PasswordVerificationToken" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="PasswordVerificationTokenExpirationDate" Precision="3" />
+  </EntityType>
+  <EntityType Name="webpages_OAuthMembership">
+    <Key>
+      <PropertyRef Name="Provider" />
+      <PropertyRef Name="ProviderUserId" />
+    </Key>
+    <Property Type="String" Name="Provider" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ProviderUserId" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="UserId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="webpages_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Type="Int32" Name="RoleId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="RoleName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UserProfiles" Relationship="KoraTodayModel.webpages_UsersInRoles" FromRole="webpages_Roles" ToRole="UserProfile" />
+  </EntityType>
+  <Association Name="webpages_UsersInRoles">
+    <End Type="KoraTodayModel.webpages_Roles" Role="webpages_Roles" Multiplicity="*" />
+    <End Type="KoraTodayModel.User" Role="UserProfile" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Slider">
+    <Key>
+      <PropertyRef Name="SliderId" />
+    </Key>
+    <Property Type="Int32" Name="SliderId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="SliderImage" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="SliderLink" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MatchTv">
+    <Key>
+      <PropertyRef Name="MatchTvId" />
+    </Key>
+    <Property Type="Guid" Name="MatchTvId" Nullable="false" />
+    <Property Type="String" Name="MatchVideoId" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MatchVideoName" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <NavigationProperty Name="Match" Relationship="KoraTodayModel.FK_MatchTv_Match" FromRole="MatchTv" ToRole="Match" />
+  </EntityType>
+  <Association Name="FK_MatchTv_Match">
+    <End Type="KoraTodayModel.Match" Role="Match" Multiplicity="1" />
+    <End Type="KoraTodayModel.MatchTv" Role="MatchTv" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Match">
+        <PropertyRef Name="MatchId" />
+      </Principal>
+      <Dependent Role="MatchTv">
+        <PropertyRef Name="MatchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="MatchDetail">
+    <Key>
+      <PropertyRef Name="MatchDetailsId" />
+    </Key>
+    <Property Type="Guid" Name="MatchDetailsId" Nullable="false" />
+    <Property Type="String" Name="MatchDetailsMinute" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchDetailsIcon" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MatchDetailsDesc" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="MatchId" Nullable="false" />
+    <NavigationProperty Name="Match" Relationship="KoraTodayModel.FK_MatchDetail_Match" FromRole="MatchDetail" ToRole="Match" />
+  </EntityType>
+  <Association Name="FK_MatchDetail_Match">
+    <End Type="KoraTodayModel.Match" Role="Match" Multiplicity="1" />
+    <End Type="KoraTodayModel.MatchDetail" Role="MatchDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Match">
+        <PropertyRef Name="MatchId" />
+      </Principal>
+      <Dependent Role="MatchDetail">
+        <PropertyRef Name="MatchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Player">
+    <Key>
+      <PropertyRef Name="PlayerId" />
+    </Key>
+    <Property Type="Int32" Name="PlayerId" Nullable="false" />
+    <Property Type="String" Name="PlayerName" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Goals" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="LeagueId" Nullable="false" />
+    <Property Type="String" Name="PlayerClub" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="League" Relationship="KoraTodayModel.FK_Player_League" FromRole="Player" ToRole="League" />
+  </EntityType>
+  <Association Name="FK_Player_League">
+    <End Type="KoraTodayModel.League" Role="League" Multiplicity="1" />
+    <End Type="KoraTodayModel.Player" Role="Player" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="League">
+        <PropertyRef Name="LeagueId" />
+      </Principal>
+      <Dependent Role="Player">
+        <PropertyRef Name="LeagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

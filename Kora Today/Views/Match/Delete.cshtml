@@ -1,0 +1,82 @@
+﻿@model Kora_Today.Models.Match
+
+@{
+    ViewBag.Title = "Delete Matche";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete Matche</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Match</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchHome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchHome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchAway)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchAway)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchHomeImage)
+    </div>
+    <div class="display-field">
+        <img src="~/Uploads/ @Html.DisplayFor(model => model.MatchHomeImage)" style="width:100px;height:100px" />
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchAwayImage)
+    </div>
+    <div class="display-field">
+         <img src="~/Uploads/@Html.DisplayFor(model => model.MatchAwayImage)" style="width:100px;height:100px" />
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchResult)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchResult)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchTime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchTime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchStatus)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchStatus)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchLeague)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchLeague)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

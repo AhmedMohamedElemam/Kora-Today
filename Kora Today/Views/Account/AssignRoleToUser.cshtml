@@ -1,0 +1,27 @@
+﻿@RenderPage("/Views/Shared/_Dashboard.cshtml")
+@{
+    ViewBag.Title = "Assign Admin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center">Assign Role To User</h2>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>User Name</td>
+            <td>@Html.DropDownList("UserName",ViewBag.User as SelectList)</td>
+        </tr>
+        <tr>
+            <td>Role Name</td>
+            <td>@Html.DropDownList("RoleName",ViewBag.Role as SelectList)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Assign Role" /></td>
+        </tr>
+
+
+    </table> 
+}

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Kora_Today.Models.League>
+@{
+    ViewBag.Title = "Leagues";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*-----------------------------------------------------------*@
+<style>
+
+.League-Home-btn
+{
+    background-color: whitesmoke; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.League-Home-btn:hover 
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+</style>
+@*-----------------------------------------------------------*@
+
+<h2 style="text-align:center;color:green;background-color:whitesmoke;">Leagues</h2>
+
+@foreach (var item in Model) {
+    <div style=" border: 1px solid #4CAF50;border-radius:25px;margin:10px 10px;padding: 20px 20px;text-decoration: none;text-align:center;display: inline-block;width:20%;">
+    
+        <div style="color:red;border: 1px solid #4CAF50;border-radius:25px;">
+          @Html.DisplayFor(modelItem => item.LeagueName)
+        </div>
+        <img src="~/Uploads/@item.LeagueImage" style="width:100px;height:100px" />
+        <div>
+           <span>@Html.ActionLink("Clubs", "LeagueClubs", new { id = item.LeagueId }, new {@class="League-Home-btn"})</span>
+           <span>@Html.ActionLink("Details", "LeagueDetails", new { id = item.LeagueId }, new {@class="League-Home-btn"})</span>
+        </div>
+    </div>
+}
+

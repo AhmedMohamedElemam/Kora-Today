@@ -1,0 +1,85 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+
+@model IPagedList<Kora_Today.Models.Match>
+@RenderPage("/Views/Shared/_Dashboard.cshtml")
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "My Matches";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>All Matches</h2>
+<p>
+    @Html.ActionLink("Create New Matche", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MatchHome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MatchAway)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MatchHomeImage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MatchAwayImage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MatchResult)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MatchDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MatchTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MatchStatus)
+        </th>
+        <th>
+            @Html.ActionLink("MatchLeague", "Index", new { sortby = ViewBag.league})
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MatchHome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MatchAway)
+        </td>
+        <td>
+           <img src="~/Uploads/@item.MatchHomeImage" style="width:100px;height:100px" />
+        </td>
+        <td>
+           <img src="~/Uploads/@item.MatchAwayImage" style="width:100px;height:100px" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MatchResult)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MatchDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MatchTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MatchStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MatchLeague)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MatchId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MatchId })
+        </td>
+    </tr>
+}
+</table>
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortby = Request["sortby"] }),
+new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded,DisplayPageCountAndCurrentLocation = true})

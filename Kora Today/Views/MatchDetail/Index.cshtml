@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Kora_Today.Models.MatchDetail>
+@RenderPage("/Views/Shared/_Dashboard.cshtml")
+
+@{
+    ViewBag.Title = "Match Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Match Details</h2>
+
+<p>
+    @Html.ActionLink("Create New Details", "Create")
+</p>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MatchDetailsMinute)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MatchDetailsIcon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MatchDetailsDesc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Match.MatchHome)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MatchDetailsMinute)
+        </td>
+        <td>
+           <img src="~/MatchIcons/@item.MatchDetailsIcon" style="width:25px;height:25px" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MatchDetailsDesc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Match.MatchHome) - @Html.DisplayFor(modelItem => item.Match.MatchAway) - @Html.DisplayFor(modelItem => item.Match.MatchDate)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MatchDetailsId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MatchDetailsId })
+        </td>
+    </tr>
+}
+
+</table>

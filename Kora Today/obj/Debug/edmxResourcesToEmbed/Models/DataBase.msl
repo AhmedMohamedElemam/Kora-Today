@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelsStoreContainer" CdmEntityContainer="KoraTodayEntities">
+    <EntitySetMapping Name="Clubs">
+      <EntityTypeMapping TypeName="Models.Club">
+        <MappingFragment StoreEntitySet="Club">
+          <ScalarProperty Name="ClubId" ColumnName="ClubId" />
+          <ScalarProperty Name="ClubName" ColumnName="ClubName" />
+          <ScalarProperty Name="ClubImage" ColumnName="ClubImage" />
+          <ScalarProperty Name="LeagueId" ColumnName="LeagueId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Leagues">
+      <EntityTypeMapping TypeName="Models.League">
+        <MappingFragment StoreEntitySet="League">
+          <ScalarProperty Name="LeagueId" ColumnName="LeagueId" />
+          <ScalarProperty Name="LeagueName" ColumnName="LeagueName" />
+          <ScalarProperty Name="LeagueImage" ColumnName="LeagueImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="Models.New">
+        <MappingFragment StoreEntitySet="New">
+          <ScalarProperty Name="NewId" ColumnName="NewId" />
+          <ScalarProperty Name="NewTitle" ColumnName="NewTitle" />
+          <ScalarProperty Name="NewContent" ColumnName="NewContent" />
+          <ScalarProperty Name="NewImage" ColumnName="NewImage" />
+          <ScalarProperty Name="ClubId" ColumnName="ClubId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelsStoreContainer">
+    <EntitySet Name="Club" EntityType="Models.Store.Club" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="League" EntityType="Models.Store.League" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="New" EntityType="Models.Store.New" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Club_League" Association="Models.Store.FK_Club_League">
+      <End Role="League" EntitySet="League" />
+      <End Role="Club" EntitySet="Club" />
+    </AssociationSet>
+    <AssociationSet Name="FK_New_Club" Association="Models.Store.FK_New_Club">
+      <End Role="Club" EntitySet="Club" />
+      <End Role="New" EntitySet="New" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Club">
+    <Key>
+      <PropertyRef Name="ClubId" />
+    </Key>
+    <Property Name="ClubId" Type="int" Nullable="false" />
+    <Property Name="ClubName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ClubImage" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LeagueId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="League">
+    <Key>
+      <PropertyRef Name="LeagueId" />
+    </Key>
+    <Property Name="LeagueId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LeagueName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LeagueImage" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="New">
+    <Key>
+      <PropertyRef Name="NewId" />
+    </Key>
+    <Property Name="NewId" Type="int" Nullable="false" />
+    <Property Name="NewTitle" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="NewContent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="NewImage" Type="nvarchar(max)" />
+    <Property Name="ClubId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Club_League">
+    <End Role="League" Type="Models.Store.League" Multiplicity="1" />
+    <End Role="Club" Type="Models.Store.Club" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="League">
+        <PropertyRef Name="LeagueId" />
+      </Principal>
+      <Dependent Role="Club">
+        <PropertyRef Name="LeagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_New_Club">
+    <End Role="Club" Type="Models.Store.Club" Multiplicity="1" />
+    <End Role="New" Type="Models.Store.New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Club">
+        <PropertyRef Name="ClubId" />
+      </Principal>
+      <Dependent Role="New">
+        <PropertyRef Name="ClubId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

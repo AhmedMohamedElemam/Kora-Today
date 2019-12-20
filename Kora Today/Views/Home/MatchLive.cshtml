@@ -1,0 +1,29 @@
+﻿@model Kora_Today.Models.Match
+
+@{
+    ViewBag.Title = "Match Live";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+  <div style="text-align:center;margin:10px">
+     <B style="color:red">@Html.DisplayFor(model => model.MatchHome)</B>
+@*     <img src="~/Uploads/@Html.DisplayFor(model => model.MatchHomeImage)" style="width:50px;height:50px">*@
+       <B style="margin:10px">VS</B> 
+@*     <img src="~/Uploads/@Html.DisplayFor(model => model.MatchAwayImage)" style="width:50px;height:50px">*@
+     <B style="color:red">@Html.DisplayFor(model => model.MatchAway)</B>
+  </div>
+ @*-----------------------------------------------------------*@
+ @foreach (var item in Model.MatchTvs) 
+ {
+     <h2 style="text-align:center;color:green;background-color:whitesmoke;">      
+           @Html.DisplayFor(model => item.MatchVideoName)
+     </h2>
+               
+     <div style="text-align:center">
+<iframe class="" width="750" height="400"
+      src="http://www.youtube.com/embed/@item.MatchVideoId?autoplay=1" frameborder="0" allowfullscreen>
+</iframe>
+     </div>        
+                  
+}
+
+

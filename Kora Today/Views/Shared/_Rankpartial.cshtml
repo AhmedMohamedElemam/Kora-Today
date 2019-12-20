@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Kora_Today.Models.Club>
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<table class="table">
+    <tr>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+            @Html.DisplayName("MP")
+        </th>
+        <th>
+            @Html.DisplayName("W")
+        </th>
+        <th>
+            @Html.DisplayName("D")
+        </th>
+        <th>
+            @Html.DisplayName("L")
+        </th>
+        <th>
+            @Html.DisplayName("GF")
+        </th>
+        <th>
+            @Html.DisplayName("GA")
+        </th>
+        <th>
+            @Html.DisplayName("GD")
+        </th>
+        <th>
+            @Html.DisplayName("Pts")
+        </th>
+        <th></th>
+    </tr>
+@{var x = 0;}
+@foreach (var item in Model) {
+    x++;
+    <tr>
+        <td>
+            @x
+        </td>
+        <td>
+           <img src="~/Uploads/@item.ClubImage" style="width:25px;height:25px">
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClubName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Played)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Won)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Drawn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lost)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GoalsFor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GoalsAgainst)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GoalsDifference)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Points)
+        </td>
+        <td></td>
+    </tr>
+    
+}
+
+</table>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f1d85b3bb527419d9af4b588b80d80de" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="KoraTodayModel.Club" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KoraTodayModel.History" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KoraTodayModel.League" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="KoraTodayModel.FK_Club_League1" ManuallyRouted="false" />
+        <AssociationConnector Association="KoraTodayModel.FK_History_Club" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="KoraTodayModel.Match" Width="1.5" PointX="7.5" PointY="0.75" />
+        <EntityTypeShape EntityType="KoraTodayModel.sysdiagram" Width="1.5" PointX="7.9379614796200588" PointY="20.381915444686037" />
+        <EntityTypeShape EntityType="KoraTodayModel.User" Width="2.375" PointX="4.125" PointY="25.75" />
+        <EntityTypeShape EntityType="KoraTodayModel.webpages_Membership" Width="1.5" PointX="11.974206978443176" PointY="25.541892644735935" />
+        <EntityTypeShape EntityType="KoraTodayModel.webpages_OAuthMembership" Width="1.5" PointX="4.9106978014627" PointY="10.279805128592907" />
+        <EntityTypeShape EntityType="KoraTodayModel.webpages_Roles" Width="1.5" PointX="11.622649149793503" PointY="15.703137539188907" />
+        <AssociationConnector Association="KoraTodayModel.webpages_UsersInRoles" />
+        <EntityTypeShape EntityType="KoraTodayModel.Slider" Width="1.5" PointX="1.704111910287343" PointY="29.122638179512059" />
+        <EntityTypeShape EntityType="KoraTodayModel.MatchTv" Width="1.5" PointX="8.0554813500752118" PointY="16.82394167074186" />
+        <AssociationConnector Association="KoraTodayModel.FK_MatchTv_Match" />
+        <EntityTypeShape EntityType="KoraTodayModel.MatchDetail" Width="1.5" PointX="4.6714603196230993" PointY="25.053413849814522" />
+        <AssociationConnector Association="KoraTodayModel.FK_MatchDetail_Match" />
+        <EntityTypeShape EntityType="KoraTodayModel.Player" Width="1.5" PointX="11.189479618887175" PointY="22.499070952878832" />
+        <AssociationConnector Association="KoraTodayModel.FK_Player_League" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

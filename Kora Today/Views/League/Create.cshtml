@@ -1,0 +1,41 @@
+﻿@model Kora_Today.Models.League
+
+@{
+    ViewBag.Title = "Create League";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center">Create New League</h2>
+
+@using (Html.BeginForm("Create", "League", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+    @Html.AntiForgeryToken()
+    <fieldset>
+        <legend>League</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LeagueName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LeagueName)
+            @Html.ValidationMessageFor(model => model.LeagueName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LeagueImage)
+        </div>
+        <div class="editor-field">
+            <input id="LeaguePhoto" name="LeaguePhoto" type="file" />
+            @Html.ValidationMessageFor(model => model.LeagueImage)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

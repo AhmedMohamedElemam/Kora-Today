@@ -1,0 +1,25 @@
+﻿<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="~/Scripts/bootstrap.min.js"></script>
+<style>
+    .navbar.navbar-inverse {
+        background-color:lightseagreen;
+        margin-top:11px;
+        /*position:fixed;*/
+    }
+    .navbar.navbar-inverse .nav li a{
+        color:black;
+    }
+</style>
+<nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li>@Html.ActionLink("Leagues", "Index", "League")</li>
+    <li>@Html.ActionLink("Clubs", "Index", "Club")</li>
+    <li>@Html.ActionLink("News", "Index", "History")</li>
+    <li>@Html.ActionLink("Matches", "Index", "Match")</li>
+    <li>@Html.ActionLink("Match Details", "Index", "MatchDetail")</li>
+    <li>@Html.ActionLink("Match TVs", "Index", "MatchTv")</li>
+    <li>@Html.ActionLink("Slider", "Index", "Slider")</li>
+    <li>@Html.ActionLink("Players", "Index", "Player")</li>
+    <li>@Html.ActionLink("Assign Admin", "AssignRoleToUser", "Account")</li>
+  </ul>
+</nav>

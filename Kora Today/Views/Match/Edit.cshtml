@@ -1,0 +1,98 @@
+﻿@model Kora_Today.Models.Match
+
+@{
+    ViewBag.Title = "Edit Matche";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit Matche</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Match</legend>
+
+        @Html.HiddenFor(model => model.MatchId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchHome)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchHome)
+            @Html.ValidationMessageFor(model => model.MatchHome)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchAway)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchAway)
+            @Html.ValidationMessageFor(model => model.MatchAway)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchHomeImage)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchHomeImage)
+            @Html.ValidationMessageFor(model => model.MatchHomeImage)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchAwayImage)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchAwayImage)
+            @Html.ValidationMessageFor(model => model.MatchAwayImage)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchResult)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchResult)
+            @Html.ValidationMessageFor(model => model.MatchResult)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchDate)
+            @Html.ValidationMessageFor(model => model.MatchDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchTime)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchTime)
+            @Html.ValidationMessageFor(model => model.MatchTime)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchStatus)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchStatus)
+            @Html.ValidationMessageFor(model => model.MatchStatus)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchLeague)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchLeague)
+            @Html.ValidationMessageFor(model => model.MatchLeague)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

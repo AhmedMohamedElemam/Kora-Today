@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Kora_Today.Models.Match>
+
+@if (Model.Count() == 0)
+{
+    <h2 style="text-align:center;color:red;background-color:whitesmoke;">:: No Matches ::</h2> 
+}
+
+else
+{
+    foreach (var item in Model)
+    {
+                <table style="text-align:center;width:70%;margin:5px;">
+            <tr style="color:red">
+                <td><b>Watch Now @Html.ActionLink(" ", "MatchLive", new { id = item.MatchId }, new { @class = "fa fa-television" })</b></td>
+                <td><b>Match Details @Html.ActionLink(" ", "MatchEvents", new { id = item.MatchId }, new { @class = "fa fa-bars" })</b></td>
+            </tr>   
+            </table>
+                
+               <table style="border: 2px solid black; width:70%;margin:10px;">
+                    
+                    <tr>
+                        <td style="text-align:center"><b>@Html.DisplayFor(modelItem => item.MatchHome)</b></td>
+                        <td style="text-align:center"></td>
+                        <td style="text-align:center"><b>@Html.DisplayFor(modelItem => item.MatchAway)</b></td>
+                        <td style="text-align:center"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td style="text-align:center"><img src="~/Uploads/@item.MatchHomeImage" style="width:50px;height:50px" /></td>
+                        <td style="text-align:center"><b><span style="background-color:blue;border-radius:10px;color:white;padding:10px">@item.MatchResult</span></b></td>
+                        <td style="text-align:center"><img src="~/Uploads/@item.MatchAwayImage" style="width:50px;height:50px" /></td>
+                        @if (item.MatchStatus.Equals("Live"))
+                        {<td style="text-align:center"><span style="background-color:red;border-radius:15px;color:white;padding:10px"><b>@item.MatchStatus</b></span></td>}
+                        else if (item.MatchStatus.Equals("Finished"))
+                        {<td style="text-align:center"><span style="background-color:black;border-radius:15px;color:white;padding:10px"><b>@item.MatchStatus</b></span></td>}
+                        else
+                        {<td style="text-align:center"><span style="background-color:lightgray;border-radius:15px;color:white;padding:10px"><b>@item.MatchStatus</b></span></td>}                    
+                    </tr>
+                    <tr>
+                        <td style="text-align:center;color:green;"><b>Championship:</b></td>
+                        <td style="text-align:center"></td>
+                        <td style="text-align:center;color:green;"><b>Date:</b></td>
+                        <td style="text-align:center;color:green;"><b>Time:</b></td>
+
+                    </tr>
+
+                    <tr>
+                        <td  style="text-align:center;color:blue;">@Html.DisplayFor(modelItem => item.MatchLeague)</td>
+                        <td style="text-align:center"></td>
+                        <td  style="text-align:center;color:blue;">@Html.DisplayFor(modelItem => item.MatchDate)</td>
+                        <td  style="text-align:center;color:blue;">@Html.DisplayFor(modelItem => item.MatchTime) CLT</td>
+
+                    </tr>
+               
+                 </table>
+    }
+}

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Kora_Today.Models.Match>
+@using System.Linq
+
+@{
+    ViewBag.Title = "Fixtures Calendar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*-----------------------------------------------------------*@
+<style>
+.datefield,.S{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid orange;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+.datefield,.S:hover 
+{
+    background-color: lightgreen;
+    color: black;
+}
+</style>
+@*-----------------------------------------------------------*@
+<script src="~/Scripts/jquery-1.9.1.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+  @using (Ajax.BeginForm("FixturesCalendar", "Home", new AjaxOptions
+  {
+      HttpMethod = "GET",
+      UpdateTargetId = "FIX",
+      InsertionMode = InsertionMode.Replace
+  }))
+  {
+      //string dt = DateTime.Today.Date.ToString("yyyy-MM-dd");
+   <div style="text-align:center;margin-top:10px">
+       @Html.TextBox("search", "Click & Choose Match Date", new { @class = "datefield" }) 
+       <input type="submit" value="View Matches" class="S" />
+   </div>
+  
+  }
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/flick/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.datefield').datepicker({
+                dateFormat: "yy-mm-dd",
+            });
+        });
+    </script>
+@*-----------------------------------------------------------*@
+<div id="FIX">
+
+</div>
+
+@*-----------------------------------------------------------*@

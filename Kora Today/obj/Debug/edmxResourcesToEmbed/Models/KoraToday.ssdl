@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelsStoreContainer">
+    <EntitySet Name="ClubNews" EntityType="Models.Store.ClubNews" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Leagues" EntityType="Models.Store.Leagues" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="ClubNews">
+    <Key>
+      <PropertyRef Name="NewId" />
+    </Key>
+    <Property Name="NewId" Type="int" Nullable="false" />
+    <Property Name="NewTitle" Type="varchar(max)" Nullable="false" />
+    <Property Name="NewContent" Type="varchar(max)" Nullable="false" />
+    <Property Name="NewImage" Type="varbinary(max)" />
+    <Property Name="ClubId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Leagues">
+    <Key>
+      <PropertyRef Name="LeagueId" />
+    </Key>
+    <Property Name="LeagueId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LeagueName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LeagueImage" Type="varbinary(max)" Nullable="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,41 @@
+﻿@model Kora_Today.Models.Slider
+
+@{
+    ViewBag.Title = "Create Advertisement";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create Advertisement</h2>
+
+@using (Html.BeginForm("Create", "Slider", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Slider</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SliderImage)
+        </div>
+        <div class="editor-field">
+            <input id="SliderPhoto" name="SliderPhoto" type="file" />
+            @Html.ValidationMessageFor(model => model.SliderImage)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SliderLink)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SliderLink)
+            @Html.ValidationMessageFor(model => model.SliderLink)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelsStoreContainer" CdmEntityContainer="KoraTodayEntities">
+    <EntitySetMapping Name="ClubNews">
+      <EntityTypeMapping TypeName="Models.ClubNew">
+        <MappingFragment StoreEntitySet="ClubNews">
+          <ScalarProperty Name="NewId" ColumnName="NewId" />
+          <ScalarProperty Name="NewTitle" ColumnName="NewTitle" />
+          <ScalarProperty Name="NewContent" ColumnName="NewContent" />
+          <ScalarProperty Name="NewImage" ColumnName="NewImage" />
+          <ScalarProperty Name="ClubId" ColumnName="ClubId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Leagues">
+      <EntityTypeMapping TypeName="Models.League">
+        <MappingFragment StoreEntitySet="Leagues">
+          <ScalarProperty Name="LeagueId" ColumnName="LeagueId" />
+          <ScalarProperty Name="LeagueName" ColumnName="LeagueName" />
+          <ScalarProperty Name="LeagueImage" ColumnName="LeagueImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

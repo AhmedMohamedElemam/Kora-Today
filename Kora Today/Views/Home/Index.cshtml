@@ -1,0 +1,154 @@
+﻿@using Kora_Today.Models;
+@model dynamic  
+
+@using System.Linq
+
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*-----------------------------------------------------------*@
+<style>
+
+.SLink{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.SLink:hover 
+{
+    background-color: green;
+    color: white;
+}
+
+</style>
+@*-----------------------------------------------------------*@
+
+ <!-- Model[i].LeagueImage !-->    
+@if (ViewBag.MatchesCount == 0)
+{
+    <h3 style="text-align:center;color:red;background-color:whitesmoke;">@ViewBag.NoMatches</h3> 
+    @*-----------------------------------------------------------*@
+      <!-- Slider -->
+    /*<div style="max-width:250px;float:right;border: 1px solid black;">
+        <b style="color:green;padding-left:50px;">Advertisement Part</b>
+        @foreach (Slider item in Model.Sliders)
+        {  
+         <figure class="mySlides">
+           <img src="~/Uploads/@item.SliderImage" style="width:100%;height:25%">
+			<figcaption style="text-align:center"><a class="SLink" href="@item.SliderLink" target="_blank"><b>Visit Us Now</b></a></figcaption>
+		 </figure>
+        }
+    </div>
+     <!-- Slider -->*/
+     <!-- Slider -->
+    <div style="max-width:250px;float:right;border: 5px solid green;background-color:white">
+        <p style="color:red;padding-left:55px;font-size:large;background-color:whitesmoke"><b>:: Advertise Here ::</b></p>
+        @foreach (Slider item in Model.Sliders)
+        {  
+         <figure class="mySlides">
+           <a href="@item.SliderLink" target="_blank"><img src="~/Uploads/@item.SliderImage" style="width:100%;height:25%"></a>
+		 </figure>
+
+        }
+    </div>
+     <!-- Slider -->
+
+    @*-----------------------------------------------------------*@
+
+}
+
+else
+{
+    <h2 style="text-align:center;color:green;background-color:whitesmoke;">Matches Today</h2>
+    <h2 style="text-align:center;color:green;background-color:whitesmoke;">@DateTime.Today.Date.ToString("dd/MM/yyyy")</h2>
+
+    @*-----------------------------------------------------------*@
+    <!-- Slider -->
+    <div style="max-width:250px;float:right;border: 5px solid green;background-color:white">
+        <p style="color:red;padding-left:55px;font-size:large;background-color:whitesmoke"><b>:: Advertise Here ::</b></p>
+        @foreach (Slider item in Model.Sliders)
+        {  
+         <figure class="mySlides">
+           <a href="@item.SliderLink" target="_blank"><img src="~/Uploads/@item.SliderImage" style="width:100%;height:25%"></a>
+		 </figure>
+
+        }
+    </div>
+     <!-- Slider -->
+
+   @*-----------------------------------------------------------*@
+
+        foreach (Match item in Model.Matches)
+        {
+            <table style="text-align:center;width:70%;margin:5px;">
+            <tr style="color:red">
+                <td><b>Watch Now @Html.ActionLink(" ", "MatchLive", new { id = item.MatchId }, new { @class = "fa fa-television" })</b></td>
+                <td><b>Match Details @Html.ActionLink(" ", "MatchEvents", new { id = item.MatchId }, new { @class = "fa fa-bars" })</b></td>
+            </tr>   
+            </table>
+                
+               <table style="border: 2px solid black; width:70%;margin:10px;">
+                    
+                    <tr>
+                        <td style="text-align:center"><b>@Html.DisplayFor(modelItem => item.MatchHome)</b></td>
+                        <td style="text-align:center"></td>
+                        <td style="text-align:center"><b>@Html.DisplayFor(modelItem => item.MatchAway)</b></td>
+                        <td style="text-align:center"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td style="text-align:center"><img src="~/Uploads/@item.MatchHomeImage" style="width:50px;height:50px" /></td>
+                        <td style="text-align:center"><b><span style="background-color:blue;border-radius:10px;color:white;padding:10px">@item.MatchResult</span></b></td>
+                        <td style="text-align:center"><img src="~/Uploads/@item.MatchAwayImage" style="width:50px;height:50px" /></td>
+                        @if (item.MatchStatus.Equals("Live"))
+                        {<td style="text-align:center"><span style="background-color:red;border-radius:15px;color:white;padding:10px"><b>@item.MatchStatus</b></span></td>}
+                        else if (item.MatchStatus.Equals("Finished"))
+                        {<td style="text-align:center"><span style="background-color:black;border-radius:15px;color:white;padding:10px"><b>@item.MatchStatus</b></span></td>}
+                        else
+                        {<td style="text-align:center"><span style="background-color:lightgray;border-radius:15px;color:white;padding:10px"><b>@item.MatchStatus</b></span></td>}                    
+                    </tr>
+
+                    <tr>
+                        <td style="text-align:center;color:green;"><b>Championship:</b></td>
+                        <td style="text-align:center"></td>
+                        <td style="text-align:center;color:green;"><b>Date:</b></td>
+                        <td style="text-align:center;color:green;"><b>Time:</b></td>
+
+                    </tr>
+
+                    <tr>
+                        <td  style="text-align:center;color:blue;">@Html.DisplayFor(modelItem => item.MatchLeague)</td>
+                        <td style="text-align:center"></td>
+                        <td  style="text-align:center;color:blue;">@Html.DisplayFor(modelItem => item.MatchDate)</td>
+                        <td  style="text-align:center;color:blue;">@Html.DisplayFor(modelItem => item.MatchTime) CLT</td>
+
+                    </tr>
+               
+                 </table>
+        }
+}
+@*-----------------------------------------------------------*@
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 3000); // Change image every 2 seconds
+    }
+
+</script>
+@*-----------------------------------------------------------*@

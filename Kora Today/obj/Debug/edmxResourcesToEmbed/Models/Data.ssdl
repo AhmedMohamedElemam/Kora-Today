@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KoraTodayModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="KoraTodayModelStoreContainer">
+    <EntitySet Name="ClubNews" EntityType="KoraTodayModel.Store.ClubNews" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Clubs" EntityType="KoraTodayModel.Store.Clubs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Leagues" EntityType="KoraTodayModel.Store.Leagues" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_ClubNews_Clubs" Association="KoraTodayModel.Store.FK_ClubNews_Clubs">
+      <End Role="Clubs" EntitySet="Clubs" />
+      <End Role="ClubNews" EntitySet="ClubNews" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Clubs_Leagues" Association="KoraTodayModel.Store.FK_Clubs_Leagues">
+      <End Role="Leagues" EntitySet="Leagues" />
+      <End Role="Clubs" EntitySet="Clubs" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ClubNews">
+    <Key>
+      <PropertyRef Name="NewId" />
+    </Key>
+    <Property Name="NewId" Type="int" Nullable="false" />
+    <Property Name="NewTitle" Type="varchar(max)" Nullable="false" />
+    <Property Name="NewContent" Type="varchar(max)" Nullable="false" />
+    <Property Name="NewImage" Type="varbinary(max)" />
+    <Property Name="ClubId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clubs">
+    <Key>
+      <PropertyRef Name="ClubId" />
+    </Key>
+    <Property Name="ClubId" Type="int" Nullable="false" />
+    <Property Name="ClubName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ClubImage" Type="varbinary(max)" Nullable="false" />
+    <Property Name="LeagueId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Leagues">
+    <Key>
+      <PropertyRef Name="LeagueId" />
+    </Key>
+    <Property Name="LeagueId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LeagueName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LeagueImage" Type="varbinary(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ClubNews_Clubs">
+    <End Role="Clubs" Type="KoraTodayModel.Store.Clubs" Multiplicity="1" />
+    <End Role="ClubNews" Type="KoraTodayModel.Store.ClubNews" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clubs">
+        <PropertyRef Name="ClubId" />
+      </Principal>
+      <Dependent Role="ClubNews">
+        <PropertyRef Name="ClubId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Clubs_Leagues">
+    <End Role="Leagues" Type="KoraTodayModel.Store.Leagues" Multiplicity="1" />
+    <End Role="Clubs" Type="KoraTodayModel.Store.Clubs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Leagues">
+        <PropertyRef Name="LeagueId" />
+      </Principal>
+      <Dependent Role="Clubs">
+        <PropertyRef Name="LeagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" ReturnType="int" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+</Schema>

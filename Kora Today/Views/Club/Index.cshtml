@@ -1,0 +1,99 @@
+﻿@model IPagedList<Kora_Today.Models.Club>
+@using PagedList;
+@using PagedList.Mvc;
+@RenderPage("/Views/Shared/_Dashboard.cshtml")
+
+@{
+    ViewBag.Title = "My Clubs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center">My Clubs</h2>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<p style="text-align:center">
+    @Html.ActionLink("Create New Club", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().ClubName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().ClubImage)
+        </th>
+        <th>
+            @Html.ActionLink("LeagueName", "Index", new { sortby = ViewBag.league})
+        </th>
+         <th>
+            @Html.DisplayNameFor(model => model.First().Played)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Won)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Drawn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Lost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().GoalsFor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().GoalsAgainst)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().GoalsDifference)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Points)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td style="color:green">
+            @Html.DisplayFor(modelItem => item.ClubName)
+        </td>
+        <td>
+            <img src="~/Uploads/@item.ClubImage" style="width:100px;height:100px" />
+        </td>
+        <td style="color:red">
+            @Html.DisplayFor(modelItem => item.League.LeagueName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Played)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Won)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Drawn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lost)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GoalsFor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GoalsAgainst)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GoalsDifference)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Points)
+        </td>
+         <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ClubId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ClubId })
+        </td>
+    </tr>
+}
+
+</table>
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortby = Request["sortby"] }),
+new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded,DisplayPageCountAndCurrentLocation = true})

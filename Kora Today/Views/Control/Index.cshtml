@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@RenderPage("/Views/Shared/_Dashboard.cshtml")
+
+@*<h2 style="text-align:center;color:red">Admin Panel</h2>
+<style>
+
+.btn
+{
+    background-color: whitesmoke; 
+    color: black; 
+    padding: 16px 16px;
+    margin:6px 6px;
+}
+.btn:hover 
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+</style>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<table class="table">
+    <tr>
+        <td>@Html.ActionLink("Leagues", "Index", "League", null,  new {@class="btn"})</td>
+        <td>@Html.ActionLink("Clubs", "Index", "Club"  ,   null,  new {@class="btn"})</td>
+        <td>@Html.ActionLink("News", "Index", "History",   null,  new {@class="btn"})</td>
+    </tr>
+    <tr>
+        <td>@Html.ActionLink("Matches", "Index", "Match",  null,  new {@class="btn"})</td>
+        <td>@Html.ActionLink("Match Details", "Index", "MatchDetail",  null,  new {@class="btn"})</td>
+        <td>@Html.ActionLink("Match TVs", "Index", "MatchTv",  null,  new {@class="btn"})</td>
+    </tr>
+    <tr>
+        <td>@Html.ActionLink("Slider", "Index", "Slider",  null,  new {@class="btn"})</td>
+        <td>@Html.ActionLink("Assign Admin", "AssignRoleToUser", "Account",  null,  new {@class="btn"})</td>
+        <td>@Html.ActionLink("Players", "Index", "Player",  null,  new {@class="btn"})</td>
+    </tr>
+</table>*@

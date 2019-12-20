@@ -1,0 +1,56 @@
+﻿@model Kora_Today.Models.MatchDetail
+
+@{
+    ViewBag.Title = "Edit Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit Details</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>MatchDetail</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchDetailsMinute)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchDetailsMinute)
+            @Html.ValidationMessageFor(model => model.MatchDetailsMinute)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchDetailsIcon)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("MatchDetailsIcon", String.Empty)
+            @Html.ValidationMessageFor(model => model.MatchDetailsIcon)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchDetailsDesc)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatchDetailsDesc)
+            @Html.ValidationMessageFor(model => model.MatchDetailsDesc)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatchId, "Match")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("MatchId", String.Empty)
+            @Html.ValidationMessageFor(model => model.MatchId)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

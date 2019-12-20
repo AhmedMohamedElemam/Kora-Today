@@ -1,0 +1,48 @@
+﻿@model Kora_Today.Models.League
+
+@{
+    ViewBag.Title = "League Clubs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2  style="text-align:center;color:green;background-color:whitesmoke;">
+@Html.DisplayFor(model => model.LeagueName) 
+</h2>
+@*-----------------------------------------------------------*@
+<style>
+
+.League-Clubs-btn
+{
+    background-color: whitesmoke; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius:25px;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.League-Clubs-btn:hover 
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+</style>
+@*-----------------------------------------------------------*@
+
+
+  
+    @foreach (var item in Model.Clubs) {
+      <div style=" border: 1px solid #4CAF50;border-radius:25px;margin:10px 10px;padding: 20px 20px;text-decoration: none;text-align:center;display: inline-block;width:15%;">
+                  <div style="color:red;border: 1px solid #4CAF50;border-radius:25px;">
+                     @Html.DisplayFor(model => item.ClubName)
+                  </div>        
+                  <img src="~/Uploads/@item.ClubImage" style="width:100px;height:100px" />
+                  <div>
+                   @Html.ActionLink("News", "ClubHistory", new {id=item.ClubId}, new {@class="League-Clubs-btn"})
+                  </div>
+     </div>
+    }
+
+

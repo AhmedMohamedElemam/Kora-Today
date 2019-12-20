@@ -1,0 +1,25 @@
+﻿@model Kora_Today.Models.Club
+
+@{
+    ViewBag.Title = "Club News";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2 style="text-align:center;color:green;background-color:whitesmoke;"> @Html.DisplayFor(model => model.ClubName)</h2>
+
+
+    @foreach (var item in Model.Histories) 
+    {
+            <div style=" border: 1px solid #4CAF50;border-radius:25px;margin:10px 10px;padding: 20px 20px;text-decoration: none;text-align:center;display: inline-block;width:40%;">
+                <div style="color:blue;border: 1px solid #4CAF50;border-radius:25px;">
+                  @Html.DisplayFor(model => item.HistoryTitle)
+                </div>
+                <div style="color:red">        
+                 @Html.DisplayFor(model => item.HistoryTime)
+                </div>
+                <img src="~/Uploads/@item.HistoryImage" style="width:250px;height:250px" />
+                <div style="color:black">        
+                  @Html.DisplayFor(model => item.HistoryContent)
+                </div>
+                
+            </div>
+    }

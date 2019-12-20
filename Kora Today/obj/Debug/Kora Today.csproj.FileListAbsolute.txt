@@ -1,0 +1,932 @@
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\Kora Today.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\Kora Today.pdb
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\Antlr3.Runtime.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.Core.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\EntityFramework.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\Newtonsoft.Json.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Net.Http.Formatting.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Helpers.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Http.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Http.WebHost.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Mvc.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Optimization.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Razor.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.WebPages.Deployment.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.WebPages.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.WebPages.Razor.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\WebGrease.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\WebMatrix.Data.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\WebMatrix.WebData.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\EntityFramework.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\Newtonsoft.Json.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Net.Http.Formatting.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Helpers.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Http.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Http.WebHost.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Mvc.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.Razor.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.WebPages.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.WebPages.Deployment.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\System.Web.WebPages.Razor.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\WebMatrix.Data.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\WebMatrix.WebData.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.Core.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\obj\Debug\Kora Today.dll
+c:\users\emo\documents\visual studio 2012\Projects\Kora Today\Kora Today\obj\Debug\Kora Today.pdb
+C:\Users\EMO\Documents\Visual Studio 2012\Projects\Kora Today\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 7\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 9\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 10\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 11\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 12\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 13\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 14\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 15\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 16\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 17\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 18\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 19\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 20\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 21\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\bin\GridMvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 22\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\GridMvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\PagedList.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\WebGrease.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\PagedList.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\MVC Complete Website\Kora Today Project\Kora Today 23\Kora Today\obj\Debug\Kora Today.pdb
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\Kora Today.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\Kora Today.pdb
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\Antlr3.Runtime.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.AspNet.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.Core.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.OAuth.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.OpenId.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\EntityFramework.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\GridMvc.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\Newtonsoft.Json.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\PagedList.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\PagedList.Mvc.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Net.Http.Formatting.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Helpers.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Http.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Http.WebHost.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Mvc.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Optimization.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Razor.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.WebPages.Deployment.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.WebPages.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.WebPages.Razor.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\WebGrease.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\WebMatrix.Data.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\WebMatrix.WebData.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\PagedList.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\PagedList.Mvc.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\EntityFramework.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\Newtonsoft.Json.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Net.Http.Formatting.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Helpers.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Http.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Http.WebHost.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Mvc.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.Razor.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.WebPages.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.WebPages.Deployment.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\System.Web.WebPages.Razor.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\WebMatrix.Data.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\WebMatrix.WebData.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.AspNet.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.Core.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.OAuth.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.OpenId.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\obj\Debug\Kora Today.csprojResolveAssemblyReference.cache
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\obj\Debug\Kora Today.dll
+D:\Web Courses\My Websites\Kora Today Project\Kora Today 24\Kora Today\obj\Debug\Kora Today.pdb

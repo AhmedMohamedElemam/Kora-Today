@@ -1,0 +1,47 @@
+﻿@model Kora_Today.Models.Player
+
+@{
+    ViewBag.Title = "Delete Player";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete Player</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Player</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PlayerName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PlayerName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Goals)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Goals)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.League.LeagueName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.League.LeagueName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PlayerClub)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PlayerClub)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

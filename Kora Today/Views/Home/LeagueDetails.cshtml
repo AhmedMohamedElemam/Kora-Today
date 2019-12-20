@@ -1,0 +1,95 @@
+﻿@model  Kora_Today.Models.League
+
+@{
+    ViewBag.Title = "League Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2  style="text-align:center;color:green;background-color:whitesmoke;">
+@Html.DisplayFor(model => model.LeagueName) 
+</h2>
+@*-----------------------------------------------------------*@
+<style>
+.t-d
+{
+    background-color: whitesmoke; 
+    color: black; 
+    border: 1px solid #4CAF50;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+    width:100px;
+}
+.t-d:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.t-d-result
+{
+    background-color: whitesmoke; 
+    color: black; 
+    border: 1px solid #4CAF50;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+    width:5%;
+}
+.t-d-result:hover
+{
+    background-color: blue;
+    color: white;
+}
+</style>
+@*-----------------------------------------------------------*@
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<script src="~/Scripts/jquery-1.9.1.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<script>
+    function ClearResult()
+    {
+        $("#TR").empty();
+    }
+</script>
+@Ajax.ActionLink("Table","Rank",new { id = Model.LeagueId },new AjaxOptions
+{
+
+    HttpMethod="GET",
+    UpdateTargetId="TR",   
+    InsertionMode = InsertionMode.Replace,
+    LoadingElementId = "Load",
+    OnBegin = "ClearResult"
+},
+new { @class = "btn btn-primary"}
+)
+<span style="padding-left:37.2%"></span>
+@Ajax.ActionLink("Top Soccer", "TopSoccer", new { id = Model.LeagueId }, new AjaxOptions
+{
+
+    HttpMethod = "GET",
+    UpdateTargetId = "TR",
+    InsertionMode = InsertionMode.Replace,
+    LoadingElementId = "Load",
+    OnBegin = "ClearResult"
+},
+new { @class = "btn btn-primary"}
+)
+<span style="padding-left:36.5%"></span>
+@Ajax.ActionLink("Fixtures", "Fixtures", new { id = Model.LeagueId }, new AjaxOptions
+{
+
+    HttpMethod = "GET",
+    UpdateTargetId = "TR",
+    InsertionMode = InsertionMode.Replace,
+    LoadingElementId = "Load",
+    OnBegin = "ClearResult"
+},
+new { @class = "btn btn-primary"}
+)
+
+<div id="Load" style="display:none;text-align:center">
+<img src="~/Images/Loading-icon.gif" />
+</div>
+<div id="TR">
+</div>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Kora_Today.Models.Slider>
+@RenderPage("/Views/Shared/_Dashboard.cshtml")
+
+@{
+    ViewBag.Title = "Advertisement";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Advertisement </h2>
+
+<p>
+    @Html.ActionLink("Create New Advertisement ", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SliderImage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SliderLink)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img src="~/Uploads/@item.SliderImage" style="width:100px;height:100px" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SliderLink)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SliderId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SliderId })
+        </td>
+    </tr>
+}
+
+</table>

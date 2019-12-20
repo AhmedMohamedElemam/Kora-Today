@@ -1,0 +1,58 @@
+﻿@model Kora_Today.Models.History
+
+@{
+    ViewBag.Title = "Create News";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create News</h2>
+
+@using (Html.BeginForm("Create", "History", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>History</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HistoryTitle)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.HistoryTitle)
+            @Html.ValidationMessageFor(model => model.HistoryTitle)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HistoryContent)
+        </div>
+        <div class="editor-field">
+            @Html.TextAreaFor(model => model.HistoryContent)
+            @Html.ValidationMessageFor(model => model.HistoryContent)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HistoryImage)
+        </div>
+        <div class="editor-field">
+          <input id="HistoryPhoto" name="HistoryPhoto" type="file" />
+            @Html.ValidationMessageFor(model => model.HistoryImage)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ClubId, "Club")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("ClubId", String.Empty)
+            @Html.ValidationMessageFor(model => model.ClubId)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Kora_Today.Models.History>
+@RenderPage("/Views/Shared/_Dashboard.cshtml")
+
+@{
+    ViewBag.Title = "My News";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center">My News</h2>
+
+<p style="text-align:center">
+    @Html.ActionLink("Create News", "Create")
+</p>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HistoryTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HistoryContent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HistoryTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HistoryImage)
+        </th>
+       
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.HistoryTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HistoryContent)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HistoryTime)
+        </td>
+        <td>
+            <img src="~/Uploads/@item.HistoryImage" style="width:100px;height:100px" />
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.HistoryId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.HistoryId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,96 @@
+﻿@model Kora_Today.Models.Club
+
+@{
+    ViewBag.Title = "Delete Club";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete Club</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Club</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ClubName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ClubName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ClubImage)
+    </div>
+    <div class="display-field">
+        <img src="~/Uploads/@Html.DisplayFor(model => model.ClubImage)" style="width:100px;height:100px" />
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.League.LeagueName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.League.LeagueName)
+    </div>
+        <div class="display-label">
+         @Html.DisplayNameFor(model => model.Played)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Played)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Won)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Won)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Drawn)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Drawn)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Lost)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Lost)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.GoalsFor)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.GoalsFor)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.GoalsAgainst)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.GoalsAgainst)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.GoalsDifference)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.GoalsDifference)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Points)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Points)
+    </div>
+
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

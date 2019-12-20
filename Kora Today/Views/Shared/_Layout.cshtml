@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Images/PG.ico" rel="icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+
+
+<body>
+    
+    <!-- Navar -->
+    <nav>
+        <div>
+            <ul class="nav-ul-top">
+                 <li style="float:left" >
+                    <img src="~/Images/Kora-Today-Logo.jpg" style="width:150px ; height:50px ;  margin-left: 4px; margin-top: 4px;"   />
+                </li>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Leagues", "LeagueHome", "Home")</li>
+                <li>@Html.ActionLink("Fixtures", "FixturesCalendar", "Home")</li>
+                <!-- Partial -->
+                @Html.Partial("_LoginPartial")
+               
+            </ul>
+        </div>
+    </nav>
+    <!-- Navar -->
+   
+
+<div class="container">
+                @RenderBody()
+</div>
+            
+    <!-- Footer -->
+  <footer class="footer">
+      
+<a href="#" style="color:white;text-decoration: none;">Follow Us On : </a>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+  </footer>
+    <!-- Footer --> 
+<section class="overlay">
+<div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+</div>
+</section>
+</body>
+</html>
+<script>
+    $(window).load(function () {
+        $(".overlay, .overlay .spinner").fadeOut();
+    });
+</script>

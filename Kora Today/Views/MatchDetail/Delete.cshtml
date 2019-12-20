@@ -1,0 +1,47 @@
+﻿@model Kora_Today.Models.MatchDetail
+
+@{
+    ViewBag.Title = "Delete Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete Details</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>MatchDetail</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchDetailsMinute)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchDetailsMinute)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchDetailsIcon)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchDetailsIcon)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MatchDetailsDesc)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MatchDetailsDesc)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayName("MatchDescription")
+    </div>
+    <div class="display-field">
+         @Html.DisplayFor(model => model.Match.MatchHome) - @Html.DisplayFor(model => model.Match.MatchAway) - @Html.DisplayFor(model => model.Match.MatchDate)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
